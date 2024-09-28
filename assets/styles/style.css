@@ -1,0 +1,197 @@
+@import url(reset.css);
+@import url(variables.css);
+
+@font-face {
+    font-family: 'DMSans';
+    src: url('../fonts/DMSans-Regular.woff2') format('woff2'),
+        url('../fonts/DMSans-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DMSans';
+    src: url('../fonts/DMSans-Medium.woff2') format('woff2')
+        url('../fonts/DMSans-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'DMSans';
+    src: url('../fonts/DMSans-MediumItalic.woff2') format('woff2')
+        url('../fonts/DMSans-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+}
+
+body {
+    font-family: var(--ff-body);
+    font-weight: 400;
+    background-color: #F6F5F6;
+    padding: 2rem 1rem 2.5rem;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+.social-media {
+    background-color: var(--clr-accent-300);
+    color: var(--clr-accent-100);
+    padding: 2.5rem 2rem;
+    text-align: center;
+    border-radius: 0.625rem;
+    margin-bottom: 2rem;
+}
+.social-media__heading {
+    font-size: 2.875rem;
+    font-weight: 500;
+    line-height: 2.625rem; 
+    letter-spacing: -1.84px;
+    margin-bottom: 1.5rem;
+}
+.social-media__span {
+    color: var(--clr-accent-500);
+    
+}
+.social-media__review {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+.social-media__stars {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.938rem;
+}
+.social-media__review-number {
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+
+
+.manage {
+    padding: 1rem;
+    background-color: var(--clr-accent-100);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border-radius: 0.625rem;
+    margin-bottom: 2rem;
+}
+.manage__platforms {
+    display: flex;
+}
+.manage__platforms-instagram {
+    box-shadow: -0.611rem 0.734rem 1.528rem 0px rgba(98, 26, 123, 0.05);
+    padding: 1.25rem;
+    border-radius: 3.125rem;
+    align-items: center;
+    padding: 0.75rem 1.5rem 0.75rem 0.75rem;
+    display: flex;
+    gap: 0.5rem;
+}
+.icon {
+    position: relative;
+}
+.manage__platforms-instagram__eclipse {
+    width: 2.625rem;
+    height: 2.625rem;
+}
+.manage__platforms-instagram__logo {
+    position: absolute;
+    left: 0.5rem;
+    top: 0.5rem;
+    width: 1.625rem ;
+    height: 1.625rem;
+}
+.name-followers {
+    display: flex;
+    flex-direction: column;
+}
+.manage__platforms-instagram .name-followers  .acc-name {
+    color: var(--clr-accent-600);
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 90%; 
+    letter-spacing: -0.96px;
+}
+.manage__platforms-instagram .name-followers  .acc-follows {
+    color: var(--clr-accent-200);
+    font-size: 0.75rem;
+    font-weight: 400;
+    letter-spacing: -0.36px;
+}
+
+.manage__platforms-X {
+    box-shadow: -0.611rem 0.734rem 1.528rem 0px rgba(98, 26, 123, 0.05);
+    padding: 1.25rem;
+    border-radius: 3.125rem;
+    align-items: center;
+    padding: 0.75rem 1.5rem 0.75rem 0.75rem;
+    display: flex;
+    gap: 0.5rem;
+}
+.icon {
+    position: relative;
+}
+.manage__platforms-X__eclipse {
+    width: 2.625rem;
+    height: 2.625rem;
+}
+.manage__platforms-X__logo {
+    position: absolute;
+    left: 0.5rem;
+    top: 0.5rem;
+    width: 1.625rem ;
+    height: 1.625rem;
+}
+.name-followers {
+    display: flex;
+    flex-direction: column;
+}
+.manage__platforms-X .name-followers  .acc-name {
+    color: var(--clr-accent-600);
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 90%; 
+    letter-spacing: -0.96px;
+}
+.manage__platforms-X .name-followers  .acc-follows {
+    color: var(--clr-accent-200);
+    font-size: 0.75rem;
+    font-weight: 400;
+    letter-spacing: -0.36px;
+}
+.manage__heading {
+    font-family: var(--ff-body);
+    font-size: 1.625rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    letter-spacing: -1.56px;
+    color: var(--clr-accent-600);
+}
+
+
+.maintain {
+    background-color: var(--clr-accent-500);
+    padding: 1rem 1rem 0;
+    border-radius: 0.625rem;
+}
+.maintain__heading {
+    color: var(--clr-accent-600);
+    font-family: var(--ff-body);
+    font-size: 1.625rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.5rem;
+    letter-spacing: -1px;
+    margin-bottom: 1rem;
+}
+.maintain__schedule {
+    width: 13rem;
+    height: 9.813rem;
+}
